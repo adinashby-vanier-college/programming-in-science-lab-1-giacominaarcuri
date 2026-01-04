@@ -2,7 +2,6 @@
 # This function should print "Hello, World!" to the screen.
 def hello_world():
     print("Hello, World!")
-hello_world()
 
 # Function 2: Get input and output with different variable types
 # This function should prompt the user for their name (string), age (int), and height (float),
@@ -10,9 +9,8 @@ hello_world()
 def input_output():
     firstName = input("Enter your name: ")
     age = int(input("Enter your age: "))
-    height = float(input("Enter your height in meters: "))
+    height = float(input("Enter your height: "))
 
     print("Hello,  " + firstName + "!")
-    print ("You are " + str(age) + " years old. ")
-    print("Your height is " + str(height) + "meters.")
-input_output()
+    print ("You are " + str(age) + " years old.")
+    print("Your height is " + str(height) + " meters.")
